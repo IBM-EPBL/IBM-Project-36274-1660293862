@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="static\css\quality_test.css">
+</head>
+
+<body>
+ 
+<ul>
+  <li><a href="web">Home</a></li>
+  <li><a href="#quality">Quality Test</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li style="float:right"><a class="active" href="about">About</a></li>
+  <center><h1 style="color:Black;font-size:20px">Efficient Of Water Quality Analysis & Prediction</h1></center>
+</ul><br>
+
+
+ <form action="/login" method="POST">
+
+   <div class="container">
+    
+    <div class="col-25">
+      <label for="enter the year">Enter The Year:</label>
+    </div>
+    <select id="Year" name="year">
+    <option value="2003">2003</option>
+    <option value="2004">2004</option>
+    <option value="2005">2005</option>
+    <option value="2006">2006</option>
+    <option value="2007">2007</option>
+    <option value="2008">2008</option>
+    <option value="2009">2009</option>
+    <option value="2010">2010</option>
+    <option value="2011">2011</option>
+    <option value="2012">2012</option>
+    <option value="2013">2013</option>
+    <option value="2014">2014</option>
+  </select><br>
+ 
+  <input type="text" id="Dissolved Oxygen" name="do" placeholder="Enter D.O" pattern="[0-9]+([\.,][0-9]+)?" required><br>
+
+
+  <input type="text" id="Potential of Hydrogen" name="ph" placeholder="Enter PH" pattern="[0-9]+([\.,][0-9]+)?" required><br>
+
+ 
+  <input type="text" id="Conductivity" name="co" placeholder="Enter Conductivity" pattern="[0-9]+([\.,][0-9]+)?" required><br>
+
+ 
+  <input type="text" id="Biochemical  Oxygen Demand" name="bod" placeholder="Enter B.O.D" pattern="[0-9]+([\.,][0-9]+)?" required><br>
+
+
+  <input type="text" id="Nitratenan" name="na" placeholder="Enter Nitratenan" pattern="[0-9]+([\.,][0-9]+)?" required><br>
+
+
+  <input type="text" id="Total Coliform" name="tc" placeholder="Enter Total Coliform" pattern="[0-9]+([\.,][0-9]+)?" required><br>
+
+   
+  <input type="submit"  value="Submit"><br><br>
+
+  
+  <div class="result" id="result">
+       {{showcase}}
+  </div>
+  
+  
+ 
+ 
+ </div>
+</form>
+
+</body>
