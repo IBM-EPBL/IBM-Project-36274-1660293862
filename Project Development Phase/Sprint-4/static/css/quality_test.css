@@ -1,0 +1,115 @@
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body {
+  font-family: Arial;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#87CEFA;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+}
+
+label {
+  padding: 12px 12px 12px 178px;
+  display: inline-block;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+select{
+  width:14%;
+  height:30px;
+  padding:0 50px;
+  margin: 7px 320px;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=text] {
+  width: 20%;
+  height:30px;
+  padding:0 50px;
+  margin: 7px 250px;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width:15%;
+  height:30px;
+  background-color: #04AA6D;
+  color: white;
+  padding:0 50px;
+  margin: 7px 272px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div.container {
+  border-radius: 5px;
+  height:600px;
+  background: url('water.jpg');
+  background-color: #f2f2f2;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+
+  
+  position:relative;
+
+  padding: 20px;
+}
+
+div.result {
+   text-align: center;
+   margin:7px 400px;
+   color: black;
+   background-color:#00FFFF;
+   font-size: 21px;
+   border: 2px solid rgb(255, 255, 51);
+   width:400px;
+   padding:0 50px;
+   
+}
+    
+
+
+</style>
